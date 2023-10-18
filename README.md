@@ -5,6 +5,10 @@ This is a CRUD application using Flask and Microsoft SQL Server to manage a tabl
 ## Installation
 
 1) Clone Repository
+    
+    ```cmd
+    git clone https://github.com/leonardokoen/bank-information-CRUD.git
+    ```
 
 2) Create python environment
 
@@ -193,4 +197,4 @@ cd c:\project\directory
 
 ```cmd
 python -m pytest
-```"# bank-information-CRUD" 
+```
