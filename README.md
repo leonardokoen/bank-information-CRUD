@@ -1,6 +1,6 @@
 # Banks-CRUD-Application
 
-This is a CRUD application using Flask and Microsoft SQL Server to manage a table in the database that contains information about banks(name, location).
+This is a small CRUD application using Flask and Microsoft SQL Server to manage a table in the database that contains information about banks(name, location).
 
 ## Installation
 
