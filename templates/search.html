@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="form-container" style="height:70vh; display:flex; align-items: center; justify-content: center; flex-direction: column; margin:5vh">
+    <h1 style="margin-top:2vh">Search Bank</h1>
+    <form method="POST">
+        
+        <div class="form-group" style = "padding-right:1vh">
+            <label for="dateOfBirth">Bank's Name</label>
+            <input type="text" class="form-control" id="inputName" name="banksname" placeholder="" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+       
+    </form>
+</div>
+
+{% endblock %}

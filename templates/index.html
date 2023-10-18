@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="form-container" style="height:calc(100vh - 8rem); display:flex; align-items: center; justify-content: center; flex-direction: column; margin:5vh;">
+    <h1 style="margin-top:2vh">Choose Route</h1>
+    <a href = "{{ url_for('insert') }}">
+        <button type="submit" class="btn btn-primary" style="width: 150px;height: 40px;margin-top: 5px;">Insert Bank</button>
+    </a>
+    <a href = "{{ url_for('list') }}">
+        <button  type="submit" class="btn btn-primary" style="width: 150px;height: 40px;margin-top: 5px;">List of Banks</button>
+    </a>
+    <a href = "{{ url_for('search') }}">
+        <button type="submit" class="btn btn-primary" style="width: 150px;height: 40px;margin-top: 5px;">Search Bank Info</button>
+    </a>
+
+    <a href = "{{ url_for('search_update') }}">
+        <button type="submit" class="btn btn-primary" style="width: 150px;height: 40px;margin-top: 5px;">Update Bank Info</button>
+    </a>
+
+    <a href = "{{ url_for('search_delete') }}">
+        <button type="submit" class="btn btn-primary" style="width: 150px;height: 40px;margin-top: 5px;">Delete Bank</button>
+    </a>
+       
+    
+</div>
+
+{% endblock %}

@@ -1,0 +1,5 @@
+DRIVER = "ODBC Driver 18 for SQL Server"
+SERVER = "LAPTOP"
+DATABASE = "banks"
+UID = "test"
+PWD = "test"

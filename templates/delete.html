@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="form-container" style="height:calc(100vh - 8rem); display:flex; align-items: center; justify-content: center; flex-direction: column; margin:5vh;">
+    <h1 style="margin-top:2vh">Delete Bank : {{name}}</h1>
+    <form method="POST">
+        <p>To Delete {{name}} type exactly: I want to delete {{name}}</p>
+        <div class="form-group" style = "padding-right:1vh">
+            <label for="dateOfBirth">Bank's Name</label>
+            <input type="text" class="form-control" id="inputName" name="answer" placeholder="I want to delete {{name}}" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Delete Bank</button>
+       
+    </form>
+</div>
+
+{% endblock %}

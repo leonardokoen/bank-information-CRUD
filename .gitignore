@@ -1,0 +1,5 @@
+schema.sql
+__pycache__/
+.pytest_cache/
+.validata_env/
+tests/__pycache__/
